@@ -1,0 +1,75 @@
+body{
+  background:#05010d;
+  font-family:Arial;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  color:#0ff;
+}
+
+.box{
+  background:#000000cc;
+  padding:30px;
+  border-radius:15px;
+  text-align:center;
+  width:320px;
+  box-shadow:0 0 25px #0ff;
+}
+
+h1{
+  text-shadow:0 0 15px #0ff;
+}
+
+input, select{
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  border-radius:8px;
+  border:none;
+  outline:none;
+}
+
+select{
+  background:#000;
+  color:#0ff;
+  border:1px solid #0ff;
+}
+
+button{
+  padding:10px 25px;
+  border:none;
+  border-radius:25px;
+  background:linear-gradient(45deg,#00f,#0ff);
+  font-weight:bold;
+  cursor:pointer;
+  box-shadow:0 0 15px #0ff;
+}
+
+#result{
+  margin-top:15px;
+}
+
+footer{
+  margin-top:20px;
+  font-size:12px;
+  color:#aaa;
+}
+
+footer b{
+  color:#0ff;
+}
+
+/* WhatsApp Floating */
+.whatsapp{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#00ffcc;
+  color:#000;
+  padding:15px;
+  border-radius:50%;
+  font-size:22px;
+  box-shadow:0 0 25px #00ffcc;
+  text-decoration:none;
+}
